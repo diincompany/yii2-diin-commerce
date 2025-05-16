@@ -17,7 +17,7 @@ use yii\widgets\MaskedInput;
         <div class="modal-content">
             <div class="modal-body">
                 <div class="my-5 text-center">
-                    <?=Html::img('https://ik.imagekit.io/ready/corpalma/img/site/tr:w-90/logo-sm-ep.png')?>
+                    <?=Html::img($modalImg)?>
                 </div>
                 <?=$form->field($model, 'name')->textInput([
                     'maxlength' => true,

@@ -7,6 +7,7 @@ use yii\base\Widget;
 class WhatsAppModal extends Widget
 {
     public $model;
+    public $modalImg;
 
     public function init()
     {
@@ -18,6 +19,7 @@ class WhatsAppModal extends Widget
     {
         return $this->render('modal', [
             'model' => $this->model,
+            'modalImg' => $this->modalImg,
         ]);
     }
 }
